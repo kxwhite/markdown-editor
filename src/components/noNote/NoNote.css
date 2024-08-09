@@ -5,14 +5,19 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: whitesmoke;
+  color: whitesmoke;
+  background-color: #232936;
 }
 
 .first-note {
   cursor: pointer;
-  background-color: #4A4E74;
+  background-color: #303642;
   border: none;
-  color: white;
+  color: whitesmoke;
   border-radius: 3px;
   padding: 1rem;
+}
+
+.first-note:hover {
+  opacity: 0.9;
 }
